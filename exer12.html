@@ -1,0 +1,32 @@
+# ExerciciosJS
+15 Exercícios de Javascript 
+<!doctype html>
+<html>
+	<head>	
+		<meta charset="utf-8"/>
+		<title>exercicio 12</title>
+	</head>
+	
+		<h1>exercicio 12</h1>
+<body>		
+<script>
+	
+	var P = Number(prompt("Digite seu peso: "));
+	var H = Number(prompt ("Digite sua altura: "));
+	var IMC = (P / (H * H));
+	
+    if (IMC < 26){
+        alert("O seu Indice de Massa Corporea esta Normal \n",+ IMC );
+    } else if (IMC >=26 && IMC < 30){
+        	alert("O seu Indice de Massa Corporea esta Sobre Peso\n",+ IMC);
+    	} else if (IMC >= 30 && IMC < 35){
+        		alert("O seu Indice de Massa Corporea esta com Obeso\n",+ IMC);
+			}else if (IMC > 35){
+        		alert("O seu Indice de Massa Corporea esta Obesidade Morbida\n",+ IMC);
+				}
+		
+	
+
+ </script>
+</body>
+</html>
